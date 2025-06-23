@@ -5,7 +5,7 @@ A simple Python CLI tool to convert temperature between Celsius and Fahrenheit.
 ## Usage
 
 ```bash
-python unit_converter.py <value> --to <unit>
+python converter.py <value> --to <unit>
 ```
 
 - `<value>`: The temperature value to convert (float or int).
@@ -15,10 +15,10 @@ python unit_converter.py <value> --to <unit>
 
 Convert 100 Celsius to Fahrenheit:
 ```bash
-python unit_converter.py 100 --to fahrenheit
+python converter.py 100 --to fahrenheit
 ```
 
 Convert 32 Fahrenheit to Celsius:
 ```bash
-python unit_converter.py 32 --to celsius
+python converter.py 32 --to celsius
 ``` 
